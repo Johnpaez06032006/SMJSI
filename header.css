@@ -1,0 +1,47 @@
+body {
+    background-image: url(1.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+}
+ 
+ #logo { 
+   float: left;
+   display: inline-block;
+ }
+ 
+ .clear {
+   clear: both;
+ }
+ 
+ 
+ #nav {
+     background-color: orange;  /*turns nav bar white*/
+     color: white;
+     width: 100%;
+ 
+ }
+ .nav {
+   float: right;
+   list-style: none;    /*gets rid of bullet points*/ 
+     text-align: left;
+     /*padding: 0px -10px 0px -10px; */
+   margin: 0;
+ }
+ .nav > li {                                                             /*max-width: 768px*/
+     display:Inline-block;
+     padding: 10px 9px 10px 9px;                               /*nav bar text*/
+ }
+ 
+  .nav > li a {                                               
+      text-decoration: none;
+      color: blue;
+      font-size: 14px;
+      padding: 5px 0px 5px 0px
+  }
+ 
+  .nav > li > a:hover {
+      color: black;*/
+  }
+
